@@ -3,15 +3,15 @@ import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
 
 void main() {
-  runApp(HelloWorld());
+  runApp(CamScreen());
 }
 
-class HelloWorld extends StatefulWidget {
+class CamScreen extends StatefulWidget {
   @override
-  _HelloWorldState createState() => _HelloWorldState();
+  _CamScreenState createState() => _CamScreenState();
 }
 
-class _HelloWorldState extends State<HelloWorld> {
+class _CamScreenState extends State<CamScreen> {
   ArCoreController arCoreController = ArCoreController();
 
   @override
